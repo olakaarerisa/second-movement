@@ -29,6 +29,7 @@
 
 const watch_face_t watch_faces[] = {
     clock_face,
+    countdown_to_time_face,
     world_clock_face,
     sunrise_sunset_face,
     moon_phase_face,
