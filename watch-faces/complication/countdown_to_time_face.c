@@ -161,7 +161,7 @@ bool countdown_to_time_face_loop(movement_event_t event, void *context) {
     switch (event.event_type) {
         case EVENT_ACTIVATE:
             if (watch_sleep_animation_is_running()) watch_stop_sleep_animation();
-            watch_display_text_with_fallback(WATCH_POSITION_TOP, "CDTT", "CT");
+            watch_display_text_with_fallback(WATCH_POSITION_TOP, "TLEFT", "CT");
             now = movement_get_local_date_time();
             state->now_ts = get_time_in_seconds(now);
             draw(state,event.subsecond);
