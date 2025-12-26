@@ -31,6 +31,7 @@ const watch_face_t watch_faces[] = {
     clock_face,
     binary_face,
     hexa_decimal_face,
+    beats_face,
     countdown_to_time_face,
     stopwatch_face,
     countdown_face,
