@@ -55,4 +55,5 @@ SRCS += \
   ./watch-faces/complication/simon_face.c \
   ./watch-faces/clock/binary_face.c \
   ./watch-faces/clock/hexa_decimal_face.c \
+  ./watch-faces/complication/countdown_to_time_face.c \
 # New watch faces go above this line.

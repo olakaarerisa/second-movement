@@ -80,4 +80,5 @@
 #include "simon_face.h"
 #include "binary_face.h"
 #include "hexa_decimal_face.h"
+#include "countdown_to_time_face.h"
 // New includes go above this line.
