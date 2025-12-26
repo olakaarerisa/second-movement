@@ -79,4 +79,5 @@
 #include "lander_face.h"
 #include "simon_face.h"
 #include "binary_face.h"
+#include "hexa_decimal_face.h"
 // New includes go above this line.
