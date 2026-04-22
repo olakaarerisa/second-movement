@@ -81,4 +81,6 @@
 #include "binary_face.h"
 #include "hexa_decimal_face.h"
 #include "countdown_to_time_face.h"
+#include "weeknumber_clock_face.h"
+#include "wyoscan_face.h"
 // New includes go above this line.

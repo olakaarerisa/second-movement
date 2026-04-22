@@ -28,21 +28,28 @@
 #include "movement_faces.h"
 
 const watch_face_t watch_faces[] = {
-    clock_face,
-    binary_face,
     hexa_decimal_face,
-    beats_face,
-    countdown_to_time_face,
-    stopwatch_face,
+    binary_face,
     countdown_face,
-    alarm_face,
+    stopwatch_face,
+    countdown_to_time_face,
     sunrise_sunset_face,
+    weeknumber_clock_face,
+    simon_face,
+    beats_face,
+    clock_face,
+    wyoscan_face,
+    advanced_alarm_face,
+    tally_face,
     world_clock_face,
-    moon_phase_face,
+    breathing_face,
+    endless_runner_face,
     temperature_display_face,
     voltage_face,
     settings_face,
-    set_time_face
+    set_time_face,
+    finetune_face,
+    nanosec_face
 };
 
 #define MOVEMENT_NUM_FACES (sizeof(watch_faces) / sizeof(watch_face_t))
